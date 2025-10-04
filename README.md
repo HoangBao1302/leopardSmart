@@ -64,25 +64,25 @@ A modern, professional landing page for EA Forex LeopardSmart built with Next.js
 ### Installation
 
 1. **Clone the repository** (when deploying):
-   \`\`\`bash
+   ```bash
    git clone <repository-url>
    cd vet-clinic
-   \`\`\`
+   ```
 
 2. **Install dependencies**:
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. **Environment Setup**:
-   - Copy \`.env.local\` and add your Resend API key
+   - Copy `.env.local` and add your Resend API key
    - Get your API key from [Resend Dashboard](https://resend.com/api-keys)
-   - Update the email addresses in \`app/api/appointment/route.ts\`
+   - Update the email addresses in `app/api/appointment/route.ts`
 
 4. **Development Server**:
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
 5. **Open your browser**:
    Navigate to [http://localhost:3000](http://localhost:3000)
@@ -95,9 +95,9 @@ A modern, professional landing page for EA Forex LeopardSmart built with Next.js
 2. **Verify Domain**: Add and verify your domain (required for production)
 3. **Get API Key**: Generate API key from dashboard
 4. **Update Variables**:
-   - Add \`RESEND_API_KEY\` to \`.env.local\`
-   - Update \`from\` email in API route to your verified domain
-   - Update \`to\` email to your clinic's email address
+   - Add `RESEND_API_KEY` to `.env.local`
+   - Update `from` email in API route to your verified domain
+   - Update `to` email to your clinic's email address
 
 ### Email Template
 
@@ -111,23 +111,23 @@ The appointment form sends professional HTML emails with:
 
 ### Colors
 
-Primary colors are defined in \`tailwind.config.ts\`:
-- Primary: \`#1e40af\` (blue-600) and \`#3b82f6\` (blue-500)
-- Accent: \`#dbeafe\` (blue-100)
+Primary colors are defined in `tailwind.config.ts`:
+- Primary: `#1e40af` (blue-600) and `#3b82f6` (blue-500)
+- Accent: `#dbeafe` (blue-100)
 
 ### Content
 
 Update business information in:
-- \`components/Header.tsx\` - Contact details and social links
-- \`components/Contact.tsx\` - Address and business hours
-- \`components/Services.tsx\` - Service descriptions and pricing
-- \`components/About.tsx\` - Clinic story and team information
+- `components/Header.tsx` - Contact details and social links
+- `components/Contact.tsx` - Address and business hours
+- `components/Services.tsx` - Service descriptions and pricing
+- `components/About.tsx` - Clinic story and team information
 
 ### Images
 
-Replace images in \`public/\` directories:
-- \`public/vet-images/\` - Clinic and veterinary photos
-- \`public/reviews/\` - Customer profile photos
+Replace images in `public/` directories:
+- `public/vet-images/` - Clinic and veterinary photos
+- `public/reviews/` - Customer profile photos
 
 ## 🚀 Deployment
 
@@ -138,7 +138,7 @@ Replace images in \`public/\` directories:
    - Connect repository to Vercel
 
 2. **Environment Variables**:
-   - Add \`RESEND_API_KEY\` in Vercel dashboard
+   - Add `RESEND_API_KEY` in Vercel dashboard
    - Configure custom domain (required for Resend)
 
 3. **Deploy**:
@@ -148,13 +148,13 @@ Replace images in \`public/\` directories:
 ### Environment Variables
 
 Required for production:
-\`\`\`
+```
 RESEND_API_KEY=your_actual_api_key_here
-\`\`\`
+```
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 vet-clinic/
 ├── app/
 │   ├── api/appointment/     # API route for form submissions
@@ -175,7 +175,7 @@ vet-clinic/
 │   └── reviews/             # Customer photos
 ├── PRD.md                   # Product Requirements Document
 └── README.md                # This file
-\`\`\`
+```
 
 ## 🌐 Business Information
 
@@ -225,4 +225,4 @@ For technical support or customization requests, please refer to:
 
 ---
 
-**Built with ❤️ for EA Forex LeopardSmart** 
+**Built with ❤️ for EA Forex LeopardSmart**
