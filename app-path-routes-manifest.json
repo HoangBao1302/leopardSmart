@@ -1,0 +1,21 @@
+{
+  "/api/verify-order/route": "/api/verify-order",
+  "/api/appointment/route": "/api/appointment",
+  "/_not-found/page": "/_not-found",
+  "/api/create-payment/route": "/api/create-payment",
+  "/api/get-order/route": "/api/get-order",
+  "/api/webhooks/stripe/route": "/api/webhooks/stripe",
+  "/robots.txt/route": "/robots.txt",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/api/contact/route": "/api/contact",
+  "/about/page": "/about",
+  "/blog/[slug]/page": "/blog/[slug]",
+  "/blog/page": "/blog",
+  "/checkout/page": "/checkout",
+  "/page": "/",
+  "/partners/page": "/partners",
+  "/live-results/page": "/live-results",
+  "/downloads/success/page": "/downloads/success",
+  "/pricing/page": "/pricing",
+  "/downloads/page": "/downloads"
+}
